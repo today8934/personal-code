@@ -1,3 +1,4 @@
 *.txt
 *.iml
 *.class
+out/production/wooksang/META-INF/wooksang.kotlin_module
