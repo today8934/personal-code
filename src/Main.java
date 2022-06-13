@@ -5,11 +5,9 @@ import java.io.FileReader;
 public class Main {
 
     public static void main(String[] args) {
-        Main main = new Main();
-        main.createMemNoQueryForGoodMemberGrd();
-
         KotlinMain kotlinMain = new KotlinMain();
         kotlinMain.joinToStringTest();
+        kotlinMain.defaultArgumentsTest();
     }
 
     private void createMemNoQueryForGoodMemberGrd() {
