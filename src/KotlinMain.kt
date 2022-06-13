@@ -1,5 +1,3 @@
-import java.util.Arrays
-
 class KotlinMain {
     fun joinToStringTest() {
         val options: Collection<String> = listOf("1", "2", "3")
