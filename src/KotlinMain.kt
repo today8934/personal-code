@@ -1,3 +1,6 @@
+const val question = "life, the universe, and everything"
+const val answer = 42
+
 class KotlinMain {
     fun joinToStringTest() {
         val options: Collection<String> = listOf("1", "2", "3")
@@ -17,5 +20,12 @@ class KotlinMain {
 
     fun foo(name: String = "", number: Int = 42, toUpperCase: Boolean = false) =
         (if (toUpperCase) name.uppercase() else name) + number
+
+    fun tripleQuotedStringsTest() {
+        val tripleQuotedString = """
+        #question = "$question"
+        #answer = $answer""".trimMargin("#")
+        println(tripleQuotedString)
+    }
 }
 

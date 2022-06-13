@@ -8,6 +8,7 @@ public class Main {
         KotlinMain kotlinMain = new KotlinMain();
         kotlinMain.joinToStringTest();
         kotlinMain.defaultArgumentsTest();
+        kotlinMain.tripleQuotedStringsTest();
     }
 
     private void createMemNoQueryForGoodMemberGrd() {
